@@ -278,7 +278,7 @@ class App {
 
     // add tiles
     const tiles = L.tileLayer(
-      "https://api.mapbox.com/styles/v1/gmapsmania/clmf0lma401g001pecfxf21s7/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZ21hcHNtYW5pYSIsImEiOiJOYnlnSFpvIn0.5f62d0cnrWCA1KioxzXtqg",
+      "https://tiles.openfreemap.org/styles/positron",
       {
         maxZoom: 19,
         attribution:
