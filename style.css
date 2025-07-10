@@ -252,18 +252,32 @@ h2 {
 
 
 input {
-  text-transform: uppercase;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  position: relative;             /* relative */
+  z-index: 40;                    /* z-40 */
+  width: 100%;                    /* w-full */
+  border-radius: 9999px;          /* rounded-full */
+  padding: 0.5rem 1rem;           /* py-2 px-4 = 8px 16px */
+  font-size: 1.125rem;            /* text-lg (~18px) */
+  font-weight: bold;             /* font-bold */
+  color: #18181b;                /* text-zinc-900 */
+  caret-color: currentColor;     /* caret-current */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -4px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  outline: none;                 /* outline-none */
+  transition: box-shadow 300ms;  /* transition-shadow duration-300 */
 }
 
+input:focus {
+  box-shadow: 0 0 0 2px #27272a,
+              0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -4px rgba(0, 0, 0, 0.1); /* Add ring + keep original shadow */
+}
+
+/* Optional: make placeholder text disappear on focus */
 input:focus::placeholder {
   color: transparent;
 }
+
 
 .leaflet-popup-content-wrapper {
   background-color: #fff;
