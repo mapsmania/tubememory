@@ -55,8 +55,7 @@ var piccadillyLine = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.2995157534755783,
-          51.54120878643842
+          -0.2994547888414, 51.540554796786161
         ]
       }
     },
@@ -69,8 +68,7 @@ var piccadillyLine = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.13427021772184933,
-          51.616229924551426
+         -0.133268788743383, 51.616475596829133
         ]
       }
     },
@@ -83,8 +81,7 @@ var piccadillyLine = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1054999329611858,
-          51.55854120559965
+          -0.108099325493406, 51.557824186691541
         ]
       }
     },
@@ -97,8 +94,7 @@ var piccadillyLine = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.21343014241789163,
-          51.490228334902
+          -0.213748788832051, 51.490259896753564
         ]
       }
     },
@@ -111,8 +107,7 @@ var piccadillyLine = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.32474718262238134,
-          51.49576500584812
+          -0.324733388871653, 51.495748296759082
         ]
       }
     },
@@ -125,8 +120,7 @@ var piccadillyLine = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.12417706473479641,
-          51.60703172061751
+          -0.124134488744299, 51.607065796823107
         ]
       }
     },
@@ -139,8 +133,7 @@ var piccadillyLine = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.11836086106469487,
-          51.54788524982811
+         -0.118367188769332, 51.548373496786958
         ]
       }
     },
@@ -153,8 +146,7 @@ var piccadillyLine = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.14991670977205104,
-          51.65202423620424
+          -0.149350288733234, 51.651605096851206 
         ]
       }
     },
@@ -2454,7 +2446,7 @@ var districtLine = {
     {
       "type": "Feature",
       "properties": {
-        "name": "Barons Court",
+        "name": " Court",
         "clue": "Named after the site of a manor house that was once owned by the Barons of Kensington."
       },
       "geometry": {
